@@ -7,7 +7,7 @@
 
 <p>
   <a name="top" href="https://github.com/nolimitcarter/bitcoinTicker">
-    <img height="100px" width="400px" src="pics/dotmatrix.jpg">
+    <img height="100px" width="100px" src="pics/dotmatrix.jpg">
   </a>
 </p>
 
