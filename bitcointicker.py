@@ -21,4 +21,4 @@ while True :
     msg = data['ticker']['price']
     show_message(device, startmsg , fill="white", font=proportional(LCD_FONT),scroll_delay=0.06)
     show_message(device, msg , fill="white", font=proportional(LCD_FONT),scroll_delay=0.06)
-    time.sleep(0.1)
+    time.sleep(2.0)
