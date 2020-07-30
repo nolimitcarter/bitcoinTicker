@@ -14,3 +14,6 @@ A bitcoin price ticker I made using JSON and Python. It is displayed on a 8x32 d
   </a>
 </p>
 
+## Usage: 
+
+Pretty simple program. All it does is create the device, makes a request to the website which is in json format, loads in the data, and picks what to show.
