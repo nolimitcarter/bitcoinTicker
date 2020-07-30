@@ -20,6 +20,6 @@ while True :
     resp = requests.get("https://api.cryptonator.com/api/ticker/btc-usd", headers=headers)
     data = json.loads(resp.text)
     msg = data['ticker']['price']
-    show_message(device, startmsg , fill="white", font=proportional(LCD_FONT),scroll_delay=0.06)
+    show_message(device, startmsg , fill="white", font=proportional(LCD_FONT),scroll_delay=0.05)
     show_message(device, msg , fill="white", font=proportional(LCD_FONT),scroll_delay=0.06)
     time.sleep(60.0)
