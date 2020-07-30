@@ -13,7 +13,7 @@ from luma.core.legacy import text, show_message
 serial = spi(port=0, device=0, gpio=noop())
 device = max7219(serial, cascaded=4, width=32, height=8, block_orientation=-90, rotate=2)
 
-startmsg = "Current BTC Price: "
+startmsg = "BTC: "
 
 while True :
     headers = {"User-Agent":"Mozilla/5.0"}
