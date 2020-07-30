@@ -9,6 +9,7 @@ from luma.led_matrix.device import max7219
 from luma.core.legacy.font import proportional, LCD_FONT
 from luma.core.legacy import text, show_message
 
+# creating the device 
 serial = spi(port=0, device=0, gpio=noop())
 device = max7219(serial, cascaded=4, width=32, height=8, block_orientation=-90, rotate=2)
 
