@@ -10,7 +10,7 @@ from luma.core.legacy.font import proportional, LCD_FONT
 from luma.core.legacy import text, show_message
 
 serial = spi(port=0, device=0, gpio=noop())
-device = max7219(serial, width=32, height=8, block_orientation=+90)
+device = max7219(serial, cascaded=4, width=32, height=8, block_orientation=-90, rotate=2)
 
 startmsg = "Current BTC Price: "
 
@@ -21,4 +21,4 @@ while True :
     msg = data['ticker']['price']
     show_message(device, startmsg , fill="white", font=proportional(LCD_FONT),scroll_delay=0.06)
     show_message(device, msg , fill="white", font=proportional(LCD_FONT),scroll_delay=0.06)
-    time.sleep(2.0)
+    time.sleep(60.0)
