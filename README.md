@@ -2,7 +2,7 @@
 
 A bitcoin price ticker I made using JSON and Python. It is displayed on a 8x32 dotmatrix display.
 
-## requirements: 
+## Dependencies: 
 
 * luma.led_matrix
 * rm-hull/bitcoin-bar was helpful in this creation
