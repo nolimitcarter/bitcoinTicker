@@ -13,7 +13,7 @@ A bitcoin price ticker I made using JSON and Python. It is displayed on a 8x32 d
 <p>
   <a name="top" href="https://github.com/nolimitcarter/bitcoinTicker">
     <img height="200px" width="200px" src="https://www.reddit.com/r/raspberry_pi/comments/i0cyoz/im_sure_someone_has_done_something_similar_to/"> 
-    <img height="200px" width="200px" src="pics/dotmatrix.jpg">
+    <img height="200px" width="200px" src="pics/IMG_2837.mp4">
   </a>
 </p>
 
