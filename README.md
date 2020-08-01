@@ -1,6 +1,6 @@
 # bitcoinTicker
 
-A bitcoin price ticker I made using JSON and Python. It is displayed on a 8x32 dotmatrix display.
+A bitcoin price ticker I made using JSON, Python and a RPI2. It is displayed on a 8x32 dotmatrix display.
 
 ## Dependencies: 
 
