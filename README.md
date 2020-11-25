@@ -20,7 +20,7 @@ A bitcoin price ticker I made using JSON, Python and a RPI2. It is displayed on 
 
 ## Usage:
 
-Intro to webscraping. It's a pretty simple program. All it does is create the device, makes a request to the website which is in json format, loads in the data, and picks what to show on the dotmatrix. You could also redirect it to a file.
+Intro to webscraping. It's a pretty simple program. All it does is create the device, makes a request to the website which is in json format, loads in the data, and picks what to show on the dotmatrix. You are able to use different cryptocurrencies and can also redirect the output to a file.
 
 ## License
 
