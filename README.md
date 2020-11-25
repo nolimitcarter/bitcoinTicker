@@ -2,7 +2,7 @@
 
 A bitcoin price ticker I made using JSON, Python and a RPI2. It is displayed on a 8x32 dotmatrix display.
 
-[Live Example](https://www.reddit.com/r/raspberry_pi/comments/i0cyoz/im_sure_someone_has_done_something_similar_to/)
+→ [Live Example](https://www.reddit.com/r/raspberry_pi/comments/i0cyoz/im_sure_someone_has_done_something_similar_to/)
 
 ## Dependencies: 
 
